@@ -85,7 +85,7 @@ def update_strategy_dropdown_options(pathname):
         },
     ]
     if "live" in pathname:
-        return [options[1]]
+        return [options[3]]
     else:
         return options
 
